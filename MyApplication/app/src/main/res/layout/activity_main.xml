@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/black"
+    app:cardCornerRadius="20dp"
+    app:cardMaxElevation="10dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="234dp"
+        android:layout_height="228dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/wanglingreal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Ritesh"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:textColor="@color/white"
+        android:includeFontPadding="true"
+        android:textSize="50dp"
+
+        ></TextView>
+
+
+</androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Enter Your Name"
+        android:textSize="20dp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="401dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Enter Your Age"
+        android:textSize="20dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="163dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:textSize="25dp"/>
+
+</LinearLayout>
+
